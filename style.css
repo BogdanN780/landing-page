@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+  
+    height: 40px;
+    background-color: #1f2937;
+}
+.navbar .container{
+    display: flex;
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 30px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+   
+}
+.navbar ul{
+    display: flex;
+    width: 1100px;
+    justify-content: flex-end;
+    gap: 100px;
+
+}
+ul{
+    list-style-type: none;
+    color: #f9faf8;
+    font-size: 16px;
+    
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+.navbar .logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    
+    
+    
+}
+.header .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header{
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight:x-bold;
+    height: 380px;
+    text-align: left;
+}
+.header h1{
+    margin-top: 70px;
+    max-width: 300px;
+    margin-left: 110px;
+}
+.header p{
+    max-width: 470px;
+    margin-left: 110px;
+}
+.header img{
+    margin-top: 70px;
+    margin-right: 105px;
+}
+
+.button{
+    background-color: lightblue;
+    color: white;
+    border-radius: 15px;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+    background-color: #1f2937;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.containertwo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.info{
+    max-width: 150px;
+    text-align: center;
+}
+.empty{
+    border: 3px solid rgb(75, 87, 155);
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.middle{
+    background-color: #E5E7EB;
+    height: 450px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quote{
+    max-width: 600px;
+    font-size: 26px;
+    
+}
+.action{
+    background-color: #3882f6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 150px;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+    border-radius: 7px;
+    color: white;
+}
+.containerfour{
+    display: flex;
+    align-items: center;
+    height: 150px;
+    justify-content: space-around;
+    
+    
+}
+.sign{
+    background-color: #3882f6;
+    color:rgb(255, 255, 255);
+    border-radius: 7px;
+    border-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;
+    margin-right: 200px;  
+}
+
+.thor{
+    text-align: right;
+}
+.call{
+    margin-left: 180px;
+}

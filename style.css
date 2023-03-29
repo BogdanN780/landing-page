@@ -169,3 +169,9 @@ a{
 .call{
     margin-left: 180px;
 }
+.sign{
+cursor: pointer;
+}
+.button{
+cursor: pointer;
+}
